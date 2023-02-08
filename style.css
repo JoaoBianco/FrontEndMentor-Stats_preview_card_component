@@ -139,10 +139,12 @@ main {
   letter-spacing: 2px;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 957px) {
   main {
     height: 100vh;
-    padding: var(--padding-900);
+    padding: var(--padding-800) var(--padding-700);
+    display: grid;
+    place-content: center;
   }
   .twoColumn {
     margin: auto;
@@ -160,6 +162,7 @@ main {
 
   .hero-img {
     object-fit: cover;
+    border-radius: 0 5px 5px 0;
   }
 
   .main-content {
